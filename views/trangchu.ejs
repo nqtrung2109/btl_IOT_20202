@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chat app</title>
+
+        <script src="jquery.js"></script>
+        <!-- <script src="https://iotchatapp.herokuapp.com/socket.io/socket.io.js"></script> -->
+        <script src="socket.io/socket.io.js"></script>
+        <script src="xuly.js"> //code phia client dc luu o day</script>
+        <link rel="stylesheet" type="text/css" href="layout.css" />  
+
+    </head>
+    
+    <body>
+        <div id="wrapper">
+
+            <div id="loginForm">
+                <h3> <span style="font-size: 40px;">CHAT APP</span> </h3>
+                <form>
+                <input type="text" id="txtUsername" />
+                <input type="submit" value="Register" id="btnRegister" />
+                </form> 
+            </div>
+
+            <div id="chatForm">
+                <div id="left">
+                    <div id="boxTitle">Users Online</div>
+                    <div id="boxContent"></div>
+                </div>
+                
+                <div id="right">
+                    <div id="sayHi">
+                        <span id="currentUser"></span>
+                        <input type="button" id="btnLogout" value="Logout">
+                    </div>
+
+                    <div id="listMess">
+                    </div>
+                        <span class="notify"></span>
+                        <span class="mess"></span>
+                        <span class="idmess"></span>
+                        <div id="thongbao"></div>
+                        <form>
+                        <input tyle="text" id="txtMess" />
+                        <input type="submit" id="btnSendMess" value="Send" />
+                        </form>
+                </div>
+            </div>    
+        </div>
+    </body>
+</html>

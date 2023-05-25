@@ -1,0 +1,36 @@
+body{background-color: #e3daf2 }
+#wrapper{width:85vw; margin: auto;}
+#txtUsername{height:25px; width:203px ;border-radius:5px; border: solid 1px black;
+font-size:100%}
+#btnRegister{height: 30px; width: 100px; font-size: 105%;}
+
+#left{min-height:30px}
+#right{min-height:20px}
+#left{width:18%; float:left; background-color:#a8baed}
+#right{width: 82%; float:right; background-color: white }
+
+#boxTitle{border: solid 2px black; padding: 7px; text-align: center; font-size: 130%; font-weight:bold}
+#boxContent{border: solid 2px black; border-top: none; padding: 10px; word-wrap: break-word; word-wrap: inherit; 
+text-align: center; font-weight: bold;}
+#sayHi{background-color: #f2ff8c;text-align: right;}
+#btnLogout{height: 30px; width: 100px;font-size: 105%;}
+#listMess{height: 65vh; word-wrap: break-word; overflow:auto; background-color:white ;}
+.notify {
+    background-color: #ed1c2a;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    word-wrap: break-word;
+}
+.idmess {
+    background-color: white;
+    text-align: right;
+    word-wrap: break-word;
+    }
+.mess {
+    background-color: white;
+    text-align: left;
+    word-wrap: break-word;
+    }
+
+#txtMess{height: 28px; width: 58vw; border: solid black,}
+#btnSendMess{height: 30px; width: 100px;font-size: 105%;}
